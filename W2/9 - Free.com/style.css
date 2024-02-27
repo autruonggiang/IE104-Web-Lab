@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #006790;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    border-inline: 10rem solid #006790;
+    margin: 0;
+    gap: 2rem;
+  }
+  img {
+    max-width: 100%;
+  }
+  p {
+    margin: 0;
+  }
+  footer {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .self-center {
+    align-self: center;
+  }
+  .self-stretch {
+    align-self: stretch;
+  }
+  .gap-3 {
+    gap: 0.75rem;
+  }
+  .gap-6 {
+    gap: 1.5rem;
+  }
+  .py-4 {
+    padding-block: 1rem;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-red {
+    color: red;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  .hover\:underline:hover {
+    text-decoration: underline;
+  }

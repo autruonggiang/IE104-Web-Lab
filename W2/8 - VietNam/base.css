@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(./images/co-vietnam.png) center / auto fixed no-repeat;
+}
+h1 {
+  padding: 0.25rem 0.5rem;
+  margin-block: 0.5rem;
+  color: white; 
+}
+img {
+  max-width: 100%;
+}
+footer img {
+  cursor: pointer;
+}
+
+.page-footer-1 {
+  display: flex; 
+  justify-content: space-between; 
+  user-select: none; 
+}
