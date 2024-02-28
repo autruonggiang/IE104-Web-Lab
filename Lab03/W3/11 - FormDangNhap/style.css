@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* p {
+    margin: 0;
+} */
+
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+form {
+    background: url(./images/login.jpg) right center / contain no-repeat;
+    padding: 0 8rem 6rem 8rem; 
+    border: 2px dotted red; 
+    border-radius: 1rem;
+}
+
+form > h1 {
+    color: red; 
+    text-align: center;
+}
+
+form label {
+    flex: 2 1 auto;
+    justify-content: flex-end;
+}
+
+form input {
+    flex: 3 1 0;
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 0.25rem  0.5rem;
+    border: 1px dotted red;
+    border-radius: 1rem;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 0.75rem;
+    padding: 0.25rem 0.375rem;
+}
