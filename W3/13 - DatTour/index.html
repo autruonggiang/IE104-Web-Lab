@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đặt tour</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./index.js"></script>
+</head>
+<body onload="username.focus();">
+
+  <!-- Form -->
+  <form action="#" method="post" onsubmit="SuccessAlert();">
+    <table>
+
+      <!-- Header -->
+      <caption><h1>Đăng ký du lịch</h1></caption>
+
+      <!-- Row 1 -->
+      <tr>
+        <td><label for="username">Họ tên</label></td>
+        <td><input type="text" id="username" name="username" autocomplete="on" required></td>
+      </tr>
+
+      <!-- Row 2 -->
+      <tr>
+        <td><label for="address">Địa chỉ</label></td>
+        <td><textarea id="address" name="address" cols="55" rows="5" autocomplete="on" required></textarea></td>
+      </tr>
+
+      <!-- Row 3 -->
+      <tr>
+        <td><label for="phone">Điện thoại</label></td>
+        <td><input type="tel" id="phone" name="phone" pattern="^(\d{10}|\d{11})$" title="Số điện thoại phải bao gồm 10 hoặc 11 chữ số" autocomplete="on" required></td>
+      </tr>
+
+      <!-- Row 4 -->
+      <tr>
+        <td>Khách Việt Nam</td>
+        <td>
+          <input type="checkbox" id="is_Vietnamese_tourist" name="is_Vietnamese_tourist" checked>
+        </td>
+      </tr>
+
+      <!-- Row 5 -->
+      <tr>
+        <td><label for="tours">Chọn tour</label></td>
+        <td><select id="tours" name="tours" required>
+          <optgroup label="Miền Bắc">
+            <option value="HN_HL_SP">Hà Nội - Hạ Long - Sapa</option>
+            <option value="HN_CH_NB">Hà Nội - Chùa Hương - Ninh Bình</option>
+            <option value="HN_CB_TC">Hà Nội - Cát Bà - Tuần Châu</option>
+          </optgroup>
+
+          <optgroup label="Miền Trung">
+            <option value="H_BM_DN">Huế - Bạch Mã - Đà Nẵng</option>
+            <option value="NT_DL">Nha Trang - Đà Lạt</option>
+            <option value="BMT_GL_KT">Buôn Mê Thuột - Gia Lai - Kontum</option>
+          </optgroup>
+
+          <optgroup label="Miền Nam">
+            <option value="TPHCM_CT_CM">TpHCM - Cần Thơ - Cà Mau</option>
+            <option value="PQ_CD" selected>Phú Quốc - Côn Đảo</option>
+          </optgroup>
+        </select></td>
+      </tr>
+
+      <!-- Row 6 -->
+      <tr>
+        <td>Phương tiện</td>
+        <td>
+          <input type="radio" id="transportation_plane" name="transportation" value="plane" required checked>
+          <label for="transportation_plane">Máy bay</label>
+
+          <input type="radio" id="transportation_bus" name="transportation" value="bus" required>
+          <label for="transportation_bus">Xe du lịch</label>
+        </td>
+      </tr>
+
+      <!-- Row 7 -->
+      <tr>
+        <td colspan="2">
+          <fieldset>
+            <legend>Số lượng đoàn khách</legend>
+            <label for="adults_count">Người lớn</label>
+            <input type="number" id="adults_count" name="adults_count" min="1" step="1" value="7" required>
+            
+            <label for="children_count">Trẻ em</label>
+            <input type="number" id="children_count" name="children_count" min="0" step="1" value="2" required>
+          </fieldset>
+        </td>
+      </tr>
+
+      <!-- Row 8 -->
+      <tr>
+        <td><label for="additional_notes">Ghi chú thêm</label></td>
+        <td>
+          <textarea id="additional_notes" name="additional_notes" cols="55" rows="5" autocomplete="on">
+Có 2 người lớn trên 70 tuổi
+Có 2 người lớn ăn chay
+2 trẻ em: 10 tuổi, 1 tuổi
+</textarea>
+        </td>
+      </tr>
+
+      <!-- Last row-1 -->
+      <tr>
+        <td colspan="2"><button type="submit">Đồng ý</button></td>
+      </tr>
+      
+      <!-- Last row -->
+      <tr>
+        <td colspan="2">Bạn đã đăng ký thành công!!!</td>
+      </tr>
+    </form>
+  </table>
+</body>
+</html>
