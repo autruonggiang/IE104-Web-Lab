@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="clock"></div>
+  </div>
+</body>
+<script>
+  const addZero = (num) => {
+    if (Number(num) < 10) {
+      num = '0' + num;
+    }
+    return num;
+  }
+  
+  const addCurrentTime = (now) => {
+    const nowSecond = addZero(now.getSeconds());
+    const nowMinute = addZero(now.getMinutes());
+    const nowHour = addZero(now.getHours());
+    const clockTime = nowHour + ':' + nowMinute + ':' + nowSecond;
+    document.querySelector('#clock').textContent = clockTime;
+  }
+  
+  const now = new Date();
+  addCurrentTime(now);
+  
+  setInterval(() => {
+    const now = new Date();
+    addCurrentTime(now);
+  }, 1000);
+</script>
+</html>

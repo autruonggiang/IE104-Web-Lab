@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    background: url(images/rose.png) 6em 29em / auto no-repeat, url(images/kim-tea-hee.png) left / auto no-repeat, darkred url(images/nen-hoa-hong.png) right bottom / auto no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+  h1, h2 {
+    margin: 0;
+  }
+  p {
+    line-height: 2;
+    margin-block-start: 0;
+  }
+  li > ul, li > ol {
+    padding-inline-start: 1.25em;
+  }
+  .text-red {
+    color: red;
+  }
+  .text-pink {
+    color: #feccff;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .italic {
+    font-style: italic;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .p-2 {
+    padding: 0.5em;
+  }
+  .pis-6 {
+    padding-inline-start: 2.5em;
+  }

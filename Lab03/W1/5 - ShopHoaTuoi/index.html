@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Hoa tươi Hạnh phúc</title>
+  <style>
+    @font-face {
+      font-family: 'UTM Wedding K_T';
+      src: url(./fonts/UTM\ Wedding\ K_T.ttf);
+    }
+
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    .-mis-1 {
+      margin-inline-start: -1.25em;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .background {
+      background: url('hinh/binh-hoa.jpg') left center / auto no-repeat, 
+      url('hinh/nen-hoa-hong.jpg') right bottom / contain no-repeat;
+    }
+
+    ol .ordered-list-item {
+      background: deeppink;
+      color: white;
+    }
+
+    #gioithieu1 li {
+      list-style-image: url("hinh/bullet-hoa-tim.png");
+    }
+
+    #lienhe2 li {
+      list-style-type:disc;
+    }
+
+    #lienhe2 li::marker {
+      color: deeppink;
+    }
+  </style>
+</head>
+<body class="background">
+  <div>
+    <h1 style="text-align: center; margin: 0.5em 0; font-family: 'UTM Wedding K_T'; font-size: 3rem; color: white; text-shadow: 0 2px #ff009a, 0 0 10px #ff009a;">Shop Hoa tươi Hạnh Phúc</h1>
+    <div style="display: flex; flex-flow: column nowrap; align-items: center; min-width: 10em;">
+      <ol>
+        <li><span class="bold ordered-list-item">Giới thiệu</span></li>
+        
+        <ul id="gioithieu1">
+          <li>Thành lập ngày 01/07/2014 </li>
+          <li>Chuyên cung cấp các loại hoa tươi </li>
+          <li>Có trên 20 cửa hàng bán lẻ tại TP.HCM </li>
+          <li>Nhận kết giỏ hoa theo yêu cầu của khách hàng </li>
+        </ul>
+        
+        <hr class="-mis-1" style="min-width: 27em;"/>
+        
+        <li><span class="bold ordered-list-item">Liên hệ</span></li>
+        
+        <ul id="lienhe2">
+          <li>Địa chỉ: <span class="bold">245 Nguyễn Văn Cừ Q5, TP.HCM</span></li>
+          <li>Điện thoại: 84-08-8351056</li>
+          <li>Fax: (08)62619416 (Ext. 115)</li>
+        </ul>
+
+        
+
+        <p class="-mis-1 italic"><span style="color: purple;">&#169;Copyright:</span>&nbsp;<span style="color: #ff009a;">Công Ty Tin Học</span></p>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>

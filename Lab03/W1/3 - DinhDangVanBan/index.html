@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Định dạng văn bản</title>
+
+    <style>
+        body{
+            margin: 75px 300px
+        } 
+        
+        h1{
+            color: limegreen; 
+            text-align: center
+        }
+
+        pre{
+            font-family: Consolas;
+            color: blue; 
+            background-color: lightgrey;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .red {
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <h1>
+            Định dạng văn bản
+        </h1>
+
+        <p>
+            <span class="bold underline">Hóa học:</span>
+            <span class="italic">Nước:</span>
+            <span class="red bold">H<sub>2</sub>O</span>; 
+            <span class="italic">Axit Sunfuric:</span>
+            <span class="red bold">H<sub>2</sub>SO<sub>4</sub></span>         
+        </p>
+
+        <p>
+            <span class="bold underline">Toán học:</span> 
+            <span class="italic">Phương trình bậc 2:</span> 
+            <span class="red bold">ax<sup>2</sup> + bx + c = 0</span>
+        </p>
+
+        <p>
+            <span class="bold underline">Tin học:</span> 
+            <span class="italic">Vòng lặp for:</span>
+        </p>
+
+        <pre>
+
+        int tong = 0;
+
+        for(int i = 1; i <= 10; i++) 
+
+                tong += i; 
+
+        printf("Tong cac so tu 1 => 10 la: %d\n",tong);       
+        </pre>
+    </div>
+</body>
+</html>

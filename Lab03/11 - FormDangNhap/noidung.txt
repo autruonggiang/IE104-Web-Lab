@@ -1,5 +1,0 @@
-﻿Form đăng nhập
-Tên người dùng:
-Mật khẩu:
-Đăng nhập
-Chào bạn
