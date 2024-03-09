@@ -1,0 +1,9 @@
+PHÂN TÍCH VÀ TRỰC QUAN DỮ LIỆU
+Mã môn học: DS105
+Môn học tập trung vào các nội dung chính sau: (1) Giới thiệu các khái niệm, các quy trình, các bộ dữ liệu liên quan trong quá trình phân tích dữ liệu. (2) Nhập, xuất, sắp xếp, tiền xử lý bộ dữ liệu. (3) Phương pháp thăm dò dữ liệu. (4) Phát triển các mô hình phân tích dữ liệu, cách chọn mô hình phân tích dữ liệu sao cho thích hợp hiệu quả với nguồn dữ liệu, cung cấp các kiến thức nâng cao để người học có thể tự thiết kế phát triển các mô hình nghiên cứu trong phân tích dữ liệu. (5) Đánh giá mô hình phân tích dữ liệu. (6) Các kiến thức toán cơ bản thống kê trong phân tích dữ liệu. (7) Các công cụ và phương pháp trực quan hóa dữ liệu trong quá trình phân tích.
+
+Trong môn học này, Python đóng vai trò chính hỗ trợ phân tích dữ liệu, chủ yếu tập trung vào các thư viện hỗ trợ sau: Pandas, NumPy, Scipy, MatlotLib, Seaborn, Scikit-learn, Statsmodels…
+
+Ngoài ra, môn học trang bị thêm một số kỹ năng hướng dẫn đọc tài liệu thành thạo (đọc hiểu các project requirements document), kỹ năng tiến hành nghiên cứu, kỹ năng viết báo cáo phân tích dữ liệu, trình bày thuyết minh xây dựng đề tài môn học và làm việc nhóm, phối hợp với nhau để hoàn thành đề tài.
+
+Môn học sẽ được mở học kỳ 1 hằng năm.

@@ -1,0 +1,4 @@
+Trong tuần 3, các bạn làm thêm:
+1. 20 bài trong LAB01 trong Folder "Bai_tap_lam_them"
+2. KHÔNG bắt buộc hàm hết.
+3. Chỉ tập trung HTML và CSS, KHÔNG dùng js.
